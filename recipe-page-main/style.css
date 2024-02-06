@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: hsl(0, 0%, 10%);
+    display: grid;
+    place-items: center;
+
+}
+.box{
+    height: 900px;
+    width: 500px;
+    border: 2px solid white;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+
+}
+.sub-box{
+    height: 800px;
+    width:300px;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 10%;
+    border-radius: 2.5%;
+}
+.pic{
+    height: 125px;
+    width: 250px;
+    border-radius: 5%;
+    position: relative;
+    left: 7.6%;
+    top: 3.2%;
+    background-image: url(assets/images/image-omelette.jpeg);
+    background-size: cover;
+    background-repeat: none;
+
+}
+.sub-box h2{
+    font-family: "Young Serif",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(0, 0%, 10%);
+    padding-top: 14%;
+    padding-left: 7%;
+}
+
+.sub-box p{
+    font-size: 7px;
+    font-family:'Outfit',sans-serif ;
+    font-weight: 400,600,700;
+    padding-left: 7%;
+
+}
+
+.prep{
+    height: 85px;
+    width: 250px;
+    border-radius: 5%;
+    background-color: hsl(330, 100%, 98%);
+    position: relative;
+    left: 25px;
+    margin-top: 10px;
+}
+.prep h4{
+    padding-left: 8%;
+    padding-top: 5%;
+    font-family: 'Young Serif';
+    font-size: 8.5px;
+    font-weight: 400;
+    color: hsl(332, 51%, 32%);
+    
+}
+.prep ul{
+    position: relative;
+    left: 7%;
+    padding-top: 1.2%;
+}
+.prep ul li{
+    font-family: 'Outfit';
+    font-size: 8px;
+    position: relative;
+    left:7%;
+    padding-top: 2%;
+
+}
+.prep ul li span{
+    font-family: 'Young serif';
+    font-size: 8px;
+    
+
+}
+.ingredients{
+    width: 280px;
+    height: 130px;
+    position: relative;
+    left: 8px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+.ingredients h3{
+    font-size: 12px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color:hsl(14, 45%, 36%);
+    position: relative;
+    left: 32px;
+    top: 17px;
+
+}
+.ingredients ul li{
+    padding-top: 2.5%;
+    position: relative;
+    top: 20px;
+    left: 46px;
+    font-size: 8px;
+    font-family: 'Outfit';
+    color:hsl(24, 5%, 18%)
+    
+}
+.instruction {
+    width: 280px;
+    height: 200px;
+    position: relative;
+    left: 9px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+}
+.instruction h3{
+    font-size: 12px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color:hsl(14, 45%, 36%);
+    position: relative;
+    left: 26px;
+    top: 17px;
+}
+.instruction ol{
+    position: relative;
+    left: 5%;
+    padding-top: 5%;
+
+}
+.instruction ol li{
+    font-size: 7px;
+    font-family: 'Outfit';
+    position: relative;
+    left:9%;
+    padding-top: 2%;
+    color: hsl(30, 10%, 34%);
+    
+}
+.instruction ol li span{
+    font-family: 'Young serif';
+    font-size: 8px;
+    color: hsl(24, 5%, 18%);
+
+}
+.nutrition{
+    width: 280px;
+    height: 200px;
+    position: relative;
+    left: 9px;
+    bottom:10px;
+    top: 10px;
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+
+}
+.nutrition h2{
+    font-size: 12px;
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color:hsl(14, 45%, 36%);
+    position: relative;
+    left: 10px;
+    bottom: 25px;
+}
+.nutrition p{
+    position: relative;
+    left: 5px;
+    bottom: 15px;
+}
+.nutrition table tbody tr{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    width: 100%;
+    text-align: left;
+}
+.one{
+    position: relative;
+    left: 95%;
+}
+.two{
+    position: relative;
+    left: 95%;
+}
+.three{
+    position: relative;
+    left: 95%;
+}
+.four{
+    position: relative;
+    left: 95%;
+}
+@media only screen and (max-width:600px){
+    .box {
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+        border-radius: 0;
+    }
+  
+}
